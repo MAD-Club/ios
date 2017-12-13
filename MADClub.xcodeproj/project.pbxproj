@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C0E3F41FE1E72C00A85336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0E3F31FE1E72C00A85336 /* AppDelegate.swift */; };
+		40C0E3F61FE1E72C00A85336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0E3F51FE1E72C00A85336 /* ViewController.swift */; };
+		40C0E3F91FE1E72C00A85336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C0E3F71FE1E72C00A85336 /* Main.storyboard */; };
+		40C0E3FB1FE1E72C00A85336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C0E3FA1FE1E72C00A85336 /* Assets.xcassets */; };
+		40C0E3FE1FE1E72C00A85336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C0E3FC1FE1E72C00A85336 /* LaunchScreen.storyboard */; };
+		40C0E4091FE1E72C00A85336 /* MADClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0E4081FE1E72C00A85336 /* MADClubTests.swift */; };
+		40C0E4141FE1E72C00A85336 /* MADClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0E4131FE1E72C00A85336 /* MADClubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C0E4051FE1E72C00A85336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C0E3E81FE1E72C00A85336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C0E3EF1FE1E72C00A85336;
+			remoteInfo = MADClub;
+		};
+		40C0E4101FE1E72C00A85336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C0E3E81FE1E72C00A85336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C0E3EF1FE1E72C00A85336;
+			remoteInfo = MADClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C0E3F01FE1E72C00A85336 /* MADClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C0E3F31FE1E72C00A85336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40C0E3F51FE1E72C00A85336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40C0E3F81FE1E72C00A85336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40C0E3FA1FE1E72C00A85336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C0E3FD1FE1E72C00A85336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40C0E3FF1FE1E72C00A85336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C0E4041FE1E72C00A85336 /* MADClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MADClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C0E4081FE1E72C00A85336 /* MADClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADClubTests.swift; sourceTree = "<group>"; };
+		40C0E40A1FE1E72C00A85336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C0E40F1FE1E72C00A85336 /* MADClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MADClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C0E4131FE1E72C00A85336 /* MADClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADClubUITests.swift; sourceTree = "<group>"; };
+		40C0E4151FE1E72C00A85336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C0E3ED1FE1E72C00A85336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0E4011FE1E72C00A85336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0E40C1FE1E72C00A85336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C0E3E71FE1E72C00A85336 = {
+			isa = PBXGroup;
+			children = (
+				40C0E3F21FE1E72C00A85336 /* MADClub */,
+				40C0E4071FE1E72C00A85336 /* MADClubTests */,
+				40C0E4121FE1E72C00A85336 /* MADClubUITests */,
+				40C0E3F11FE1E72C00A85336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C0E3F11FE1E72C00A85336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C0E3F01FE1E72C00A85336 /* MADClub.app */,
+				40C0E4041FE1E72C00A85336 /* MADClubTests.xctest */,
+				40C0E40F1FE1E72C00A85336 /* MADClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C0E3F21FE1E72C00A85336 /* MADClub */ = {
+			isa = PBXGroup;
+			children = (
+				40C0E3F31FE1E72C00A85336 /* AppDelegate.swift */,
+				40C0E3F51FE1E72C00A85336 /* ViewController.swift */,
+				40C0E3F71FE1E72C00A85336 /* Main.storyboard */,
+				40C0E3FA1FE1E72C00A85336 /* Assets.xcassets */,
+				40C0E3FC1FE1E72C00A85336 /* LaunchScreen.storyboard */,
+				40C0E3FF1FE1E72C00A85336 /* Info.plist */,
+			);
+			path = MADClub;
+			sourceTree = "<group>";
+		};
+		40C0E4071FE1E72C00A85336 /* MADClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C0E4081FE1E72C00A85336 /* MADClubTests.swift */,
+				40C0E40A1FE1E72C00A85336 /* Info.plist */,
+			);
+			path = MADClubTests;
+			sourceTree = "<group>";
+		};
+		40C0E4121FE1E72C00A85336 /* MADClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C0E4131FE1E72C00A85336 /* MADClubUITests.swift */,
+				40C0E4151FE1E72C00A85336 /* Info.plist */,
+			);
+			path = MADClubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C0E3EF1FE1E72C00A85336 /* MADClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C0E4181FE1E72C00A85336 /* Build configuration list for PBXNativeTarget "MADClub" */;
+			buildPhases = (
+				40C0E3EC1FE1E72C00A85336 /* Sources */,
+				40C0E3ED1FE1E72C00A85336 /* Frameworks */,
+				40C0E3EE1FE1E72C00A85336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MADClub;
+			productName = MADClub;
+			productReference = 40C0E3F01FE1E72C00A85336 /* MADClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C0E4031FE1E72C00A85336 /* MADClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C0E41B1FE1E72C00A85336 /* Build configuration list for PBXNativeTarget "MADClubTests" */;
+			buildPhases = (
+				40C0E4001FE1E72C00A85336 /* Sources */,
+				40C0E4011FE1E72C00A85336 /* Frameworks */,
+				40C0E4021FE1E72C00A85336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C0E4061FE1E72C00A85336 /* PBXTargetDependency */,
+			);
+			name = MADClubTests;
+			productName = MADClubTests;
+			productReference = 40C0E4041FE1E72C00A85336 /* MADClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40C0E40E1FE1E72C00A85336 /* MADClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C0E41E1FE1E72C00A85336 /* Build configuration list for PBXNativeTarget "MADClubUITests" */;
+			buildPhases = (
+				40C0E40B1FE1E72C00A85336 /* Sources */,
+				40C0E40C1FE1E72C00A85336 /* Frameworks */,
+				40C0E40D1FE1E72C00A85336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C0E4111FE1E72C00A85336 /* PBXTargetDependency */,
+			);
+			name = MADClubUITests;
+			productName = MADClubUITests;
+			productReference = 40C0E40F1FE1E72C00A85336 /* MADClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C0E3E81FE1E72C00A85336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "St. Clair College";
+				TargetAttributes = {
+					40C0E3EF1FE1E72C00A85336 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					40C0E4031FE1E72C00A85336 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40C0E3EF1FE1E72C00A85336;
+					};
+					40C0E40E1FE1E72C00A85336 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40C0E3EF1FE1E72C00A85336;
+					};
+				};
+			};
+			buildConfigurationList = 40C0E3EB1FE1E72C00A85336 /* Build configuration list for PBXProject "MADClub" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C0E3E71FE1E72C00A85336;
+			productRefGroup = 40C0E3F11FE1E72C00A85336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C0E3EF1FE1E72C00A85336 /* MADClub */,
+				40C0E4031FE1E72C00A85336 /* MADClubTests */,
+				40C0E40E1FE1E72C00A85336 /* MADClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C0E3EE1FE1E72C00A85336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C0E3FE1FE1E72C00A85336 /* LaunchScreen.storyboard in Resources */,
+				40C0E3FB1FE1E72C00A85336 /* Assets.xcassets in Resources */,
+				40C0E3F91FE1E72C00A85336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0E4021FE1E72C00A85336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0E40D1FE1E72C00A85336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C0E3EC1FE1E72C00A85336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C0E3F61FE1E72C00A85336 /* ViewController.swift in Sources */,
+				40C0E3F41FE1E72C00A85336 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0E4001FE1E72C00A85336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C0E4091FE1E72C00A85336 /* MADClubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0E40B1FE1E72C00A85336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C0E4141FE1E72C00A85336 /* MADClubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C0E4061FE1E72C00A85336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C0E3EF1FE1E72C00A85336 /* MADClub */;
+			targetProxy = 40C0E4051FE1E72C00A85336 /* PBXContainerItemProxy */;
+		};
+		40C0E4111FE1E72C00A85336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C0E3EF1FE1E72C00A85336 /* MADClub */;
+			targetProxy = 40C0E4101FE1E72C00A85336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40C0E3F71FE1E72C00A85336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C0E3F81FE1E72C00A85336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40C0E3FC1FE1E72C00A85336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C0E3FD1FE1E72C00A85336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40C0E4161FE1E72C00A85336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C0E4171FE1E72C00A85336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C0E4191FE1E72C00A85336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.stclaircollege.MADClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40C0E41A1FE1E72C00A85336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.stclaircollege.MADClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40C0E41C1FE1E72C00A85336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.stclaircollege.MADClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MADClub.app/MADClub";
+			};
+			name = Debug;
+		};
+		40C0E41D1FE1E72C00A85336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.stclaircollege.MADClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MADClub.app/MADClub";
+			};
+			name = Release;
+		};
+		40C0E41F1FE1E72C00A85336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.stclaircollege.MADClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MADClub;
+			};
+			name = Debug;
+		};
+		40C0E4201FE1E72C00A85336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.stclaircollege.MADClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MADClub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C0E3EB1FE1E72C00A85336 /* Build configuration list for PBXProject "MADClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C0E4161FE1E72C00A85336 /* Debug */,
+				40C0E4171FE1E72C00A85336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C0E4181FE1E72C00A85336 /* Build configuration list for PBXNativeTarget "MADClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C0E4191FE1E72C00A85336 /* Debug */,
+				40C0E41A1FE1E72C00A85336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C0E41B1FE1E72C00A85336 /* Build configuration list for PBXNativeTarget "MADClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C0E41C1FE1E72C00A85336 /* Debug */,
+				40C0E41D1FE1E72C00A85336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C0E41E1FE1E72C00A85336 /* Build configuration list for PBXNativeTarget "MADClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C0E41F1FE1E72C00A85336 /* Debug */,
+				40C0E4201FE1E72C00A85336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C0E3E81FE1E72C00A85336 /* Project object */;
+}
