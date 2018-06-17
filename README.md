@@ -16,6 +16,12 @@ You'll need the following things:
 
 Go into your project directory:
 
+## Automatic
+
+1. run `bin/setup.sh`. Please do not run as sudo/root.
+
+## Manual
+
 1. Do `gem install bundler` to install `bundler`.
 1. Once completed, do `bundle install` to install the `Gemfile`.
 1. When that is done, we need to install the pod library. To do so, do: `bundle exec pod install`.
